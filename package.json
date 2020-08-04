@@ -9,7 +9,6 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "coverage": "ng test --no-watch --code-coverage --reporters=teamcity,coverage-istanbul",
-    "cypress": "npx cypress run --reporter teamcity",
     "ci:serve": "ng build --prod && http-server dist -p 4200",
     "cypress:run": "cypress run --reporter teamcity",
     "cypress:ci": "start-server-and-test ci:serve http://localhost:4200 cypress:run"
